@@ -98,7 +98,7 @@ BOARD_ROOT_EXTRA_SYMLINKS += /vendor/etc:/vtc
 BOARD_ROOT_EXTRA_SYMLINKS += /data/tombstones:/tombstones
 
 # Define kernel config for inline building
-TARGET_KERNEL_CONFIG := lineageos_hammerhead_defconfig
+TARGET_KERNEL_CONFIG := hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
 TARGET_RECOVERY_FSTAB = device/lge/hammerhead/fstab.hammerhead
